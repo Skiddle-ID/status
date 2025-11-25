@@ -177,7 +177,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/Skiddle-ID/.github/main/logo.png
   name: Skiddle Network Status
   introTitle: "**Skiddle-ID** Skiddle-ID is passionate about JavaScript and open protocols, creating better information ecosystems.."
-  introMessage: This is a status page which uses **real-time** data from our [GitHub repository](https://github.com/Skiddle-ID/status).
+  introMessage: This is a status page which uses **secondary** data mirrored from our Monitoring API.
   navbar:
     - title: Status
       href: /
