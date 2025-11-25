@@ -3,7 +3,7 @@ owner: Skiddle-ID # Your GitHub organization or username, where this repository 
 repo: status # The name of this repository
 
 sites:
-  // Internal Network
+  # Internal Network
   - name: Polaris (Internal Main Cluster)
     url: https://api.skiddle.cloud/internal/polaris/health
   - name: Orion (Auth Service)
@@ -53,7 +53,7 @@ sites:
   - name: Atlantis (Experimenting Nodes)
     url: https://api.skiddle.cloud/external/atlantis/health
 
-    // Cloud
+  # Cloud
   - name: Europa (Cloud Main Server)
     url: https://api.skiddle.cloud/cloud/europa/health
   - name: Europa-2 (Europa Workers)
@@ -62,7 +62,7 @@ sites:
     url: https://api.skiddle.cloud/cloud/europa-3/health
   - name: Helios-1 (Helios Cluster Controller)
     url: https://api.skiddle.cloud/cloud/helios-1/health
-  - name: Helios-2 
+  - name: Helios-2
     url: https://api.skiddle.cloud/cloud/helios-2/health
   - name: Helios-3
     url: https://api.skiddle.cloud/cloud/helios-3/health
@@ -115,7 +115,7 @@ sites:
   - name: Aquila-7
     url: https://api.skiddle.cloud/cloud/aquila-7/health
 
-    // Cloud Database
+  # Cloud Database
   - name: Galileo-1 (PostgreSQL Server - Main)
     url: https://api.skiddle.cloud/cloud/galileo-1/health
   - name: Galileo-2 (PostgreSQL Server - Mirror)
@@ -125,7 +125,7 @@ sites:
   - name: Galileo-4 (MySQL Server - Mirror)
     url: https://api.skiddle.cloud/cloud/galileo-4/health
 
-    // Cloud Storage
+  # Cloud Storage
   - name: Kepler-1 (Nextcloud)
     url: https://api.skiddle.cloud/cloud/kepler-1/health
   - name: Kepler-2 (Nextcloud)
@@ -147,19 +147,19 @@ sites:
   - name: Kepler-10 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-10/health
 
-    // Cloud Load Balancer
+  # Cloud Load Balancer
   - name: Nebula-1
     url: https://api.skiddle.cloud/cloud/nebula-1/health
   - name: Nebula-2
     url: https://api.skiddle.cloud/cloud/nebula-2/health
 
-    // Cloud Monitoring
+  # Cloud Monitoring
   - name: Prometheus-1
     url: https://api.skiddle.cloud/cloud/prometheus-1/health
   - name: Prometheus-2
     url: https://api.skiddle.cloud/cloud/prometheus-2/health
 
-    // Private Cloud
+  # Private Cloud
   - name: Athalie-1
     url: https://api.skiddle.cloud/cloud/athalie-1/health
   - name: Athalie-2
