@@ -1,36 +1,192 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Skiddle-ID # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  // Internal Network
+  - name: Polaris (Internal Main Cluster)
+    url: https://api.skiddle.cloud/internal/polaris/health
+  - name: Orion (Auth Service)
+    url: https://api.skiddle.cloud/internal/orion/health
+  - name: Andromeda (Storage Service)
+    url: https://api.skiddle.cloud/internal/andromeda/health
+  - name: Mewtwo (Primary NAS)
+    url: https://api.skiddle.cloud/internal/mewtwo/health
+  - name: Torchic (Home NAS)
+    url: https://api.skiddle.cloud/internal/torchic/health
+  - name: Cassiopeia (Monitoring Service)
+    url: https://api.skiddle.cloud/internal/cassiopeia/health
+  - name: Cygnus (Firewall /w PFsense)
+    url: https://api.skiddle.cloud/internal/cygnus/health
+  - name: Phoenix (Internal proxy)
+    url: https://api.skiddle.cloud/internal/phoenix/health
+  # - name: Titan (AI Workstation)
+  #   url: https://api.skiddle.cloud/internal/titan/health
+  - name: Eevee (8 Nodes Raspberry Pi Cluster)
+    url: https://api.skiddle.cloud/internal/eevee/health
+  - name: Hydra (Computing Cluster)
+    url: https://api.skiddle.cloud/internal/hydra/health
+  - name: Pegasus (Computing Cluster)
+    url: https://api.skiddle.cloud/internal/pegasus/health
+  - name: Discovery (Monitoring API)
+    url: https://api.skiddle.cloud/external/discovery/health
+  - name: Apollo-1 (Apollo Cluster)
+    url: https://api.skiddle.cloud/external/apollo-1/health
+  - name: Apollo-2 (Apollo Cluster)
+    url: https://api.skiddle.cloud/external/apollo-2/health
+  - name: Voyager-1 (Voyager Cluster)
+    url: https://api.skiddle.cloud/external/voyager-1/health
+  - name: Voyager-2 (Voyager Cluster)
+    url: https://api.skiddle.cloud/external/voyager-2/health
+  - name: Odyssey-1 (Odyssey Cluster)
+    url: https://api.skiddle.cloud/external/odyssey-1/health
+  - name: Odyssey-2 (Odyssey Cluster)
+    url: https://api.skiddle.cloud/external/odyssey-2/health
+  - name: Odyssey-3 (Odyssey Cluster)
+    url: https://api.skiddle.cloud/external/odyssey-3/health
+  - name: Gemini (Media Server /w Plex)
+    url: https://api.skiddle.cloud/external/gemini/health
+  - name: Pioneer (Experimenting Nodes)
+    url: https://api.skiddle.cloud/external/pioneer/health
+  - name: Endeavour (Experimenting Nodes)
+    url: https://api.skiddle.cloud/external/endeavour/health
+  - name: Atlantis (Experimenting Nodes)
+    url: https://api.skiddle.cloud/external/atlantis/health
+
+    // Cloud
+  - name: Europa (Cloud Main Server)
+    url: https://api.skiddle.cloud/cloud/europa/health
+  - name: Europa-2 (Europa Workers)
+    url: https://api.skiddle.cloud/cloud/europa-2/health
+  - name: Europa-3 (Europa Workers)
+    url: https://api.skiddle.cloud/cloud/europa-3/health
+  - name: Helios-1 (Helios Cluster Controller)
+    url: https://api.skiddle.cloud/cloud/helios-1/health
+  - name: Helios-2 
+    url: https://api.skiddle.cloud/cloud/helios-2/health
+  - name: Helios-3
+    url: https://api.skiddle.cloud/cloud/helios-3/health
+  - name: Helios-4
+    url: https://api.skiddle.cloud/cloud/helios-4/health
+  - name: Helios-5
+    url: https://api.skiddle.cloud/cloud/helios-5/health
+  - name: Helios-6
+    url: https://api.skiddle.cloud/cloud/helios-6/health
+  - name: Helios-7
+    url: https://api.skiddle.cloud/cloud/helios-7/health
+  - name: Helios-8
+    url: https://api.skiddle.cloud/cloud/helios-8/health
+  - name: Helios-9
+    url: https://api.skiddle.cloud/cloud/helios-9/health
+  - name: Asteria-1 (Asteria Cluster Controller)
+    url: https://api.skiddle.cloud/cloud/asteria-1/health
+  - name: Asteria-2
+    url: https://api.skiddle.cloud/cloud/asteria-2/health
+  - name: Asteria-3
+    url: https://api.skiddle.cloud/cloud/asteria-3/health
+  - name: Asteria-4
+    url: https://api.skiddle.cloud/cloud/asteria-4/health
+  - name: Asteria-5
+    url: https://api.skiddle.cloud/cloud/asteria-5/health
+  - name: Asteria-6
+    url: https://api.skiddle.cloud/cloud/asteria-6/health
+  - name: Arcturus-1 (Arcturus Cluster Controller)
+    url: https://api.skiddle.cloud/cloud/arcturus-1/health
+  - name: Arcturus-2
+    url: https://api.skiddle.cloud/cloud/arcturus-2/health
+  - name: Arcturus-3
+    url: https://api.skiddle.cloud/cloud/arcturus-3/health
+  - name: Arcturus-4
+    url: https://api.skiddle.cloud/cloud/arcturus-4/health
+  - name: Arcturus-5
+    url: https://api.skiddle.cloud/cloud/arcturus-5/health
+  - name: Aquila-1 (Aquila Cluster Controller)
+    url: https://api.skiddle.cloud/cloud/aquila-1/health
+  - name: Aquila-2
+    url: https://api.skiddle.cloud/cloud/aquila-2/health
+  - name: Aquila-3
+    url: https://api.skiddle.cloud/cloud/aquila-3/health
+  - name: Aquila-4
+    url: https://api.skiddle.cloud/cloud/aquila-4/health
+  - name: Aquila-5
+    url: https://api.skiddle.cloud/cloud/aquila-5/health
+  - name: Aquila-6
+    url: https://api.skiddle.cloud/cloud/aquila-6/health
+  - name: Aquila-7
+    url: https://api.skiddle.cloud/cloud/aquila-7/health
+
+    // Cloud Database
+  - name: Galileo-1 (PostgreSQL Server - Main)
+    url: https://api.skiddle.cloud/cloud/galileo-1/health
+  - name: Galileo-2 (PostgreSQL Server - Mirror)
+    url: https://api.skiddle.cloud/cloud/galileo-2/health
+  - name: Galileo-3 (MySQL Server - Main)
+    url: https://api.skiddle.cloud/cloud/galileo-3/health
+  - name: Galileo-4 (MySQL Server - Mirror)
+    url: https://api.skiddle.cloud/cloud/galileo-4/health
+
+    // Cloud Storage
+  - name: Kepler-1 (Nextcloud)
+    url: https://api.skiddle.cloud/cloud/kepler-1/health
+  - name: Kepler-2 (Nextcloud)
+    url: https://api.skiddle.cloud/cloud/kepler-2/health
+  - name: Kepler-3 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-3/health
+  - name: Kepler-4 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-4/health
+  - name: Kepler-5 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-5/health
+  - name: Kepler-6 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-6/health
+  - name: Kepler-7 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-7/health
+  - name: Kepler-8 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-8/health
+  - name: Kepler-9 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-9/health
+  - name: Kepler-10 (Minio)
+    url: https://api.skiddle.cloud/cloud/kepler-10/health
+
+    // Cloud Load Balancer
+  - name: Nebula-1
+    url: https://api.skiddle.cloud/cloud/nebula-1/health
+  - name: Nebula-2
+    url: https://api.skiddle.cloud/cloud/nebula-2/health
+
+    // Cloud Monitoring
+  - name: Prometheus-1
+    url: https://api.skiddle.cloud/cloud/prometheus-1/health
+  - name: Prometheus-2
+    url: https://api.skiddle.cloud/cloud/prometheus-2/health
+
+    // Private Cloud
+  - name: Athalie-1
+    url: https://api.skiddle.cloud/cloud/athalie-1/health
+  - name: Athalie-2
+    url: https://api.skiddle.cloud/cloud/athalie-2/health
+  - name: Athalie-3
+    url: https://api.skiddle.cloud/cloud/athalie-3/health
+  - name: Athalie-4
+    url: https://api.skiddle.cloud/cloud/athalie-4/health
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # cname: demo.upptime.js.org
+  baseUrl: /status
+  logoUrl: https://raw.githubusercontent.com/Skiddle-ID/.github/main/logo.png
+  name: Skiddle Network Status
+  introTitle: "**Skiddle-ID** Skiddle-ID is passionate about JavaScript and open protocols, creating better information ecosystems.."
+  introMessage: This is a status page which uses **real-time** data from our [GitHub repository](https://github.com/Skiddle-ID/status).
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+commitMessages:
+  commitAuthorName: "skiddle-bot"
+  commitAuthorEmail: "165562787+skiddle-bot@users.noreply.github.com"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
