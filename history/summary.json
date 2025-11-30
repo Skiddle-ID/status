@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "polaris-internal-main-cluster",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 159,
     "timeDay": 121,
     "timeWeek": 159,
     "timeMonth": 159,
     "timeYear": 159,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Orion (Auth Service)",
@@ -25,19 +23,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "orion-auth-service",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 19,
     "timeDay": 18,
     "timeWeek": 19,
     "timeMonth": 19,
     "timeYear": 19,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Andromeda (Storage Service)",
@@ -45,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "andromeda-storage-service",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 19,
     "timeDay": 19,
     "timeWeek": 19,
     "timeMonth": 19,
     "timeYear": 19,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Mewtwo (Primary NAS)",
@@ -65,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "mewtwo-primary-nas",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 17,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Torchic (Home NAS)",
@@ -85,19 +77,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "torchic-home-nas",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 18,
     "timeDay": 17,
     "timeWeek": 18,
     "timeMonth": 18,
     "timeYear": 18,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Cassiopeia (Monitoring Service)",
@@ -122,17 +112,17 @@
     "url": "https://api.skiddle.cloud/network/cygnus/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "cygnus-firewall-w-p-fsense",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 143,
-    "timeDay": 350,
-    "timeWeek": 143,
-    "timeMonth": 143,
-    "timeYear": 143,
+    "time": 398,
+    "timeDay": 872,
+    "timeWeek": 398,
+    "timeMonth": 398,
+    "timeYear": 398,
     "dailyMinutesDown": {}
   },
   {
@@ -1256,17 +1246,17 @@
     "url": "https://api.skiddle.cloud/cloud/prometheus-1/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "prometheus-1",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 19,
-    "timeDay": 18,
-    "timeWeek": 19,
-    "timeMonth": 19,
-    "timeYear": 19,
+    "time": 258,
+    "timeDay": 557,
+    "timeWeek": 258,
+    "timeMonth": 258,
+    "timeYear": 258,
     "dailyMinutesDown": {}
   },
   {
@@ -1274,17 +1264,17 @@
     "url": "https://api.skiddle.cloud/cloud/prometheus-2/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "prometheus-2",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 19,
-    "timeDay": 19,
-    "timeWeek": 19,
-    "timeMonth": 19,
-    "timeYear": 19,
+    "time": 253,
+    "timeDay": 544,
+    "timeWeek": 253,
+    "timeMonth": 253,
+    "timeYear": 253,
     "dailyMinutesDown": {}
   },
   {
