@@ -17,9 +17,9 @@ sites:
   - name: Cassiopeia (Monitoring Service)
     url: https://api.skiddle.cloud/internal/cassiopeia/health
   - name: Cygnus (Firewall /w PFsense)
-    url: https://api.skiddle.cloud/internal/cygnus/health
+    url: https://api.skiddle.cloud/network/cygnus/health
   - name: Phoenix (Internal proxy)
-    url: https://api.skiddle.cloud/internal/phoenix/health
+    url: https://api.skiddle.cloud/network/phoenix/health
   # - name: Titan (AI Workstation)
   #   url: https://api.skiddle.cloud/internal/titan/health
   - name: Eevee (8 Nodes Raspberry Pi Cluster)
@@ -168,6 +168,22 @@ sites:
     url: https://api.skiddle.cloud/cloud/athalie-3/health
   - name: Athalie-4
     url: https://api.skiddle.cloud/cloud/athalie-4/health
+
+  # CDN
+  - name: CDN via Cloudflare
+    url: https://api.skiddle.cloud/cdn/cloudflare/health
+  - name: CDN via Backblaze
+    url: https://api.skiddle.cloud/cdn/backblaze/health
+
+  # Network Upstream
+  - name: AS13335 (Cloudflare)
+    url: https://api.skiddle.cloud/network/AS13335/health
+  - name: AS1299 (Arelion)
+    url: https://api.skiddle.cloud/network/AS1299/health
+  - name: AS47311 (Atharva)
+    url: https://api.skiddle.cloud/network/AS47311/health
+  # - name: SGX
+  #   url: https://api.skiddle.cloud/network/sgx/health
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
