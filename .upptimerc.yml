@@ -6,184 +6,266 @@ sites:
   # Internal Network
   - name: Polaris (Internal Main Cluster)
     url: https://api.skiddle.cloud/internal/polaris/health
+    maxResponseTime: 2000
   - name: Orion (Auth Service)
     url: https://api.skiddle.cloud/internal/orion/health
+    maxResponseTime: 2000
   - name: Andromeda (Storage Service)
     url: https://api.skiddle.cloud/internal/andromeda/health
+    maxResponseTime: 2000
   - name: Mewtwo (Primary NAS)
     url: https://api.skiddle.cloud/internal/mewtwo/health
+    maxResponseTime: 2000
   - name: Torchic (Home NAS)
     url: https://api.skiddle.cloud/internal/torchic/health
+    maxResponseTime: 2000
   - name: Cassiopeia (Monitoring Service)
     url: https://api.skiddle.cloud/internal/cassiopeia/health
+    maxResponseTime: 2000
   - name: Cygnus (Firewall /w PFsense)
     url: https://api.skiddle.cloud/network/cygnus/health
+    maxResponseTime: 2000
   - name: Phoenix (Internal proxy)
     url: https://api.skiddle.cloud/network/phoenix/health
+    maxResponseTime: 2000
   # - name: Titan (AI Workstation)
   #   url: https://api.skiddle.cloud/internal/titan/health
+  #   maxResponseTime: 2000
   - name: Eevee (8 Nodes Raspberry Pi Cluster)
     url: https://api.skiddle.cloud/internal/eevee/health
+    maxResponseTime: 2000
   - name: Hydra (Computing Cluster)
     url: https://api.skiddle.cloud/internal/hydra/health
+    maxResponseTime: 2000
   - name: Pegasus (Computing Cluster)
     url: https://api.skiddle.cloud/internal/pegasus/health
+    maxResponseTime: 2000
   - name: Discovery (Monitoring API)
     url: https://api.skiddle.cloud/external/discovery/health
+    maxResponseTime: 2000
   - name: Apollo-1 (Apollo Cluster)
     url: https://api.skiddle.cloud/external/apollo-1/health
+    maxResponseTime: 2000
   - name: Apollo-2 (Apollo Cluster)
     url: https://api.skiddle.cloud/external/apollo-2/health
+    maxResponseTime: 2000
   - name: Voyager-1 (Voyager Cluster)
     url: https://api.skiddle.cloud/external/voyager-1/health
+    maxResponseTime: 2000
   - name: Voyager-2 (Voyager Cluster)
     url: https://api.skiddle.cloud/external/voyager-2/health
+    maxResponseTime: 2000
   - name: Odyssey-1 (Odyssey Cluster)
     url: https://api.skiddle.cloud/external/odyssey-1/health
+    maxResponseTime: 2000
   - name: Odyssey-2 (Odyssey Cluster)
     url: https://api.skiddle.cloud/external/odyssey-2/health
+    maxResponseTime: 2000
   - name: Odyssey-3 (Odyssey Cluster)
     url: https://api.skiddle.cloud/external/odyssey-3/health
+    maxResponseTime: 2000
   - name: Gemini (Media Server /w Plex)
     url: https://api.skiddle.cloud/external/gemini/health
+    maxResponseTime: 2000
   - name: Pioneer (Experimenting Nodes)
     url: https://api.skiddle.cloud/external/pioneer/health
+    maxResponseTime: 2000
   - name: Endeavour (Experimenting Nodes)
     url: https://api.skiddle.cloud/external/endeavour/health
+    maxResponseTime: 2000
   - name: Atlantis (Experimenting Nodes)
     url: https://api.skiddle.cloud/external/atlantis/health
+    maxResponseTime: 2000
 
   # Cloud
   - name: Europa (Cloud Main Server)
     url: https://api.skiddle.cloud/cloud/europa/health
+    maxResponseTime: 2000
   - name: Europa-2 (Europa Workers)
     url: https://api.skiddle.cloud/cloud/europa-2/health
+    maxResponseTime: 2000
   - name: Europa-3 (Europa Workers)
     url: https://api.skiddle.cloud/cloud/europa-3/health
+    maxResponseTime: 2000
   - name: Helios-1 (Helios Cluster Controller)
     url: https://api.skiddle.cloud/cloud/helios-1/health
+    maxResponseTime: 2000
   - name: Helios-2
     url: https://api.skiddle.cloud/cloud/helios-2/health
+    maxResponseTime: 2000
   - name: Helios-3
     url: https://api.skiddle.cloud/cloud/helios-3/health
+    maxResponseTime: 2000
   - name: Helios-4
     url: https://api.skiddle.cloud/cloud/helios-4/health
+    maxResponseTime: 2000
   - name: Helios-5
     url: https://api.skiddle.cloud/cloud/helios-5/health
+    maxResponseTime: 2000
   - name: Helios-6
     url: https://api.skiddle.cloud/cloud/helios-6/health
+    maxResponseTime: 2000
   - name: Helios-7
     url: https://api.skiddle.cloud/cloud/helios-7/health
+    maxResponseTime: 2000
   - name: Helios-8
     url: https://api.skiddle.cloud/cloud/helios-8/health
+    maxResponseTime: 2000
   - name: Helios-9
     url: https://api.skiddle.cloud/cloud/helios-9/health
+    maxResponseTime: 2000
   - name: Asteria-1 (Asteria Cluster Controller)
     url: https://api.skiddle.cloud/cloud/asteria-1/health
+    maxResponseTime: 2000
   - name: Asteria-2
     url: https://api.skiddle.cloud/cloud/asteria-2/health
+    maxResponseTime: 2000
   - name: Asteria-3
     url: https://api.skiddle.cloud/cloud/asteria-3/health
+    maxResponseTime: 2000
   - name: Asteria-4
     url: https://api.skiddle.cloud/cloud/asteria-4/health
+    maxResponseTime: 2000
   - name: Asteria-5
     url: https://api.skiddle.cloud/cloud/asteria-5/health
+    maxResponseTime: 2000
   - name: Asteria-6
     url: https://api.skiddle.cloud/cloud/asteria-6/health
+    maxResponseTime: 2000
   - name: Arcturus-1 (Arcturus Cluster Controller)
     url: https://api.skiddle.cloud/cloud/arcturus-1/health
+    maxResponseTime: 2000
   - name: Arcturus-2
     url: https://api.skiddle.cloud/cloud/arcturus-2/health
+    maxResponseTime: 2000
   - name: Arcturus-3
     url: https://api.skiddle.cloud/cloud/arcturus-3/health
+    maxResponseTime: 2000
   - name: Arcturus-4
     url: https://api.skiddle.cloud/cloud/arcturus-4/health
+    maxResponseTime: 2000
   - name: Arcturus-5
     url: https://api.skiddle.cloud/cloud/arcturus-5/health
+    maxResponseTime: 2000
   - name: Aquila-1 (Aquila Cluster Controller)
     url: https://api.skiddle.cloud/cloud/aquila-1/health
+    maxResponseTime: 2000
   - name: Aquila-2
     url: https://api.skiddle.cloud/cloud/aquila-2/health
+    maxResponseTime: 2000
   - name: Aquila-3
     url: https://api.skiddle.cloud/cloud/aquila-3/health
+    maxResponseTime: 2000
   - name: Aquila-4
     url: https://api.skiddle.cloud/cloud/aquila-4/health
+    maxResponseTime: 2000
   - name: Aquila-5
     url: https://api.skiddle.cloud/cloud/aquila-5/health
+    maxResponseTime: 2000
   - name: Aquila-6
     url: https://api.skiddle.cloud/cloud/aquila-6/health
+    maxResponseTime: 2000
   - name: Aquila-7
     url: https://api.skiddle.cloud/cloud/aquila-7/health
+    maxResponseTime: 2000
 
   # Cloud Database
   - name: Galileo-1 (PostgreSQL Server - Main)
     url: https://api.skiddle.cloud/cloud/galileo-1/health
+    maxResponseTime: 2000
   - name: Galileo-2 (PostgreSQL Server - Mirror)
     url: https://api.skiddle.cloud/cloud/galileo-2/health
+    maxResponseTime: 2000
   - name: Galileo-3 (MySQL Server - Main)
     url: https://api.skiddle.cloud/cloud/galileo-3/health
+    maxResponseTime: 2000
   - name: Galileo-4 (MySQL Server - Mirror)
     url: https://api.skiddle.cloud/cloud/galileo-4/health
+    maxResponseTime: 2000
 
   # Cloud Storage
   - name: Kepler-1 (Nextcloud)
     url: https://api.skiddle.cloud/cloud/kepler-1/health
+    maxResponseTime: 2000
   - name: Kepler-2 (Nextcloud)
     url: https://api.skiddle.cloud/cloud/kepler-2/health
+    maxResponseTime: 2000
   - name: Kepler-3 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-3/health
+    maxResponseTime: 2000
   - name: Kepler-4 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-4/health
+    maxResponseTime: 2000
   - name: Kepler-5 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-5/health
+    maxResponseTime: 2000
   - name: Kepler-6 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-6/health
+    maxResponseTime: 2000
   - name: Kepler-7 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-7/health
+    maxResponseTime: 2000
   - name: Kepler-8 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-8/health
+    maxResponseTime: 2000
   - name: Kepler-9 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-9/health
+    maxResponseTime: 2000
   - name: Kepler-10 (Minio)
     url: https://api.skiddle.cloud/cloud/kepler-10/health
+    maxResponseTime: 2000
 
   # Cloud Load Balancer
   - name: Nebula-1
     url: https://api.skiddle.cloud/cloud/nebula-1/health
+    maxResponseTime: 2000
   - name: Nebula-2
     url: https://api.skiddle.cloud/cloud/nebula-2/health
+    maxResponseTime: 2000
 
   # Cloud Monitoring
   - name: Prometheus-1
     url: https://api.skiddle.cloud/cloud/prometheus-1/health
+    maxResponseTime: 2000
   - name: Prometheus-2
     url: https://api.skiddle.cloud/cloud/prometheus-2/health
+    maxResponseTime: 2000
 
   # Private Cloud
   - name: Athalie-1
     url: https://api.skiddle.cloud/cloud/athalie-1/health
+    maxResponseTime: 2000
   - name: Athalie-2
     url: https://api.skiddle.cloud/cloud/athalie-2/health
+    maxResponseTime: 2000
   - name: Athalie-3
     url: https://api.skiddle.cloud/cloud/athalie-3/health
+    maxResponseTime: 2000
   - name: Athalie-4
     url: https://api.skiddle.cloud/cloud/athalie-4/health
+    maxResponseTime: 2000
 
   # CDN
   - name: CDN via Cloudflare
     url: https://api.skiddle.cloud/cdn/cloudflare/health
+    maxResponseTime: 2000
   - name: CDN via Backblaze
     url: https://api.skiddle.cloud/cdn/backblaze/health
+    maxResponseTime: 2000
 
   # Network Upstream
   - name: AS13335 (Cloudflare)
     url: https://api.skiddle.cloud/network/AS13335/health
+    maxResponseTime: 2000
   - name: AS1299 (Arelion)
     url: https://api.skiddle.cloud/network/AS1299/health
+    maxResponseTime: 2000
   - name: AS47311 (Atharva)
     url: https://api.skiddle.cloud/network/AS47311/health
+    maxResponseTime: 2000
   # - name: SGX
   #   url: https://api.skiddle.cloud/network/sgx/health
+  #   maxResponseTime: 2000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
