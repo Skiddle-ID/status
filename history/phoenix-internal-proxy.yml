@@ -1,7 +1,7 @@
-url: https://api.skiddle.cloud/internal/phoenix/health
+url: https://api.skiddle.cloud/network/phoenix/health
 status: up
 code: 200
-responseTime: 22
-lastUpdated: 2025-11-29T23:09:02.504Z
+responseTime: 8
+lastUpdated: 2025-11-30T14:26:42.922Z
 startTime: 2025-11-25T17:13:01.825Z
 generator: Upptime <https://github.com/upptime/upptime>
