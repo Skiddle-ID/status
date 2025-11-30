@@ -305,19 +305,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "voyager-2-voyager-cluster",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 16,
     "timeDay": 14,
     "timeWeek": 16,
     "timeMonth": 16,
     "timeYear": 16,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Odyssey-1 (Odyssey Cluster)",
@@ -325,19 +323,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "odyssey-1-odyssey-cluster",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 18,
     "timeDay": 15,
     "timeWeek": 18,
     "timeMonth": 18,
     "timeYear": 18,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Odyssey-2 (Odyssey Cluster)",
@@ -345,19 +341,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "odyssey-2-odyssey-cluster",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 15,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Odyssey-3 (Odyssey Cluster)",
@@ -365,19 +359,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "odyssey-3-odyssey-cluster",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 15,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Gemini (Media Server /w Plex)",
@@ -385,19 +377,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "gemini-media-server-w-plex",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 18,
     "timeDay": 17,
     "timeWeek": 18,
     "timeMonth": 18,
     "timeYear": 18,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Pioneer (Experimenting Nodes)",
@@ -405,19 +395,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "pioneer-experimenting-nodes",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 18,
     "timeDay": 15,
     "timeWeek": 18,
     "timeMonth": 18,
     "timeYear": 18,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Endeavour (Experimenting Nodes)",
@@ -425,19 +413,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "endeavour-experimenting-nodes",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 15,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Atlantis (Experimenting Nodes)",
@@ -445,19 +431,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "atlantis-experimenting-nodes",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 16,
     "timeDay": 14,
     "timeWeek": 16,
     "timeMonth": 16,
     "timeYear": 16,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Europa (Cloud Main Server)",
@@ -465,19 +449,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "europa-cloud-main-server",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 15,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Europa-2 (Europa Workers)",
@@ -485,19 +467,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "europa-2-europa-workers",
     "status": "up",
-    "uptime": "99.93%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 17,
     "timeDay": 15,
     "timeWeek": 17,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {
-      "2025-11-25": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Europa-3 (Europa Workers)",
