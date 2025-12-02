@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/network/cygnus/health
-status: degraded
+status: up
 code: 200
-responseTime: 2115
-lastUpdated: 2025-12-01T23:09:48.966Z
+responseTime: 12
+lastUpdated: 2025-12-02T07:45:42.758Z
 startTime: 2025-11-25T17:12:59.556Z
 generator: Upptime <https://github.com/upptime/upptime>
