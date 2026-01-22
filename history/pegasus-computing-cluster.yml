@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/internal/pegasus/health
 status: up
 code: 200
-responseTime: 11
-lastUpdated: 2026-01-21T23:15:11.266Z
+responseTime: 23
+lastUpdated: 2026-01-22T23:11:08.413Z
 startTime: 2025-11-25T17:13:09.353Z
 generator: Upptime <https://github.com/upptime/upptime>
