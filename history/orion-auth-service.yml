@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/internal/orion/health
 status: up
 code: 200
-responseTime: 8
-lastUpdated: 2026-01-21T23:15:09.420Z
+responseTime: 21
+lastUpdated: 2026-01-22T23:11:06.539Z
 startTime: 2025-11-25T17:12:46.167Z
 generator: Upptime <https://github.com/upptime/upptime>
