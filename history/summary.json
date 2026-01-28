@@ -4,19 +4,19 @@
     "url": "https://api.skiddle.cloud/internal/polaris/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.skiddle.cloud.ico",
     "slug": "polaris-internal-main-cluster",
-    "status": "degraded",
-    "uptime": "99.97%",
-    "uptimeDay": "97.92%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.97%",
-    "time": 400,
-    "timeDay": 6743,
-    "timeWeek": 2321,
-    "timeMonth": 707,
-    "timeYear": 400,
+    "status": "up",
+    "uptime": "99.91%",
+    "uptimeDay": "94.50%",
+    "uptimeWeek": "99.21%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.91%",
+    "time": 395,
+    "timeDay": 5073,
+    "timeWeek": 2095,
+    "timeMonth": 688,
+    "timeYear": 395,
     "dailyMinutesDown": {
-      "2026-01-28": 30
+      "2026-01-28": 79
     }
   },
   {
