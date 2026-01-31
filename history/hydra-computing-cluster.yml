@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/internal/hydra/health
 status: up
 code: 200
-responseTime: 10
-lastUpdated: 2026-01-30T23:15:04.500Z
+responseTime: 23
+lastUpdated: 2026-01-31T23:11:46.855Z
 startTime: 2025-11-25T17:13:06.829Z
 generator: Upptime <https://github.com/upptime/upptime>
