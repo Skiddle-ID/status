@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/internal/polaris/health
 status: up
 code: 200
-responseTime: 85
-lastUpdated: 2026-04-24T23:30:31.744Z
+responseTime: 125
+lastUpdated: 2026-04-25T23:26:31.433Z
 startTime: 2025-11-25T17:12:43.388Z
 generator: Upptime <https://github.com/upptime/upptime>
