@@ -1,7 +1,7 @@
 url: https://api.skiddle.cloud/cloud/prometheus-1/health
 status: up
 code: 200
-responseTime: 34
-lastUpdated: 2026-09-29T02:21:17.384Z
+responseTime: 415
+lastUpdated: 2026-09-30T01:42:37.661Z
 startTime: 2025-11-25T17:15:35.277Z
 generator: Upptime <https://github.com/upptime/upptime>
